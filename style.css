@@ -1,7 +1,10 @@
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url("https://picsum.photos/id/41/1000/1000") no-repeat fixed center;
+    background-image: url("https://picsum.photos/id/41/1000/1000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
 }
